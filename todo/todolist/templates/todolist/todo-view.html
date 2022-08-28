@@ -1,0 +1,15 @@
+{% extends "user/base.html"%}
+{%block title%}add todo list{%endblock%}
+{% load crispy_forms_tags %}
+{%block content%}
+<div class="content-section">
+    <p class="text-center">
+        <a href="#" class="btn btn-outline-info">
+            {{todos.title}}
+        </a>
+    </p>
+    <p class="text-center">
+        <a href="#"" class="btn btn-outline-info">
+            {{todos.memo}}
+</div>
+{%endblock%}
